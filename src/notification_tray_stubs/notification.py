@@ -1,6 +1,7 @@
 from datetime import datetime
 from pathlib import Path
-from typing import Literal, TypedDict, NotRequired
+from typing import Literal, TypedDict
+from typing_extensions import NotRequired
 
 NotificationHints = TypedDict(
     "NotificationHints",

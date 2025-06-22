@@ -5,8 +5,10 @@ description = "Stubs package for notification-tray"
 authors = [
     { name = "ctrl-q", email = "34975747+ctrl-q@users.noreply.github.com" }
 ]
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.9"
+dependencies = [
+    "typing-extensions>=4.14.0",
+]
 
 [build-system]
 requires = ["hatchling"]
