@@ -37,6 +37,7 @@ class Notification(TypedDict):
     expire_timeout: int
     id: int
     at: datetime
+    notification_tray_run_id: str
 
 
 class CachedNotification(Notification):
